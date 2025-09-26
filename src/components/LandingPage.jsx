@@ -296,7 +296,7 @@ export const LandingPage = () => {
               >
                 {plan.popular && (
                   <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-blue-500 text-white px-4 py-1 rounded-full text-sm font-medium">
+                    <span className="bg-blue-500 text-white px-4 py-2 rounded-full text-sm font-sm">
                       Most Popular
                     </span>
                   </div>
@@ -304,10 +304,10 @@ export const LandingPage = () => {
                 
                 <div className="text-center mb-8">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{plan.name}</h3>
-                  <div className="mb-4">
+                  {/* <div className="mb-4">
                     <span className="text-4xl font-bold text-gray-900">{plan.price}</span>
                     <span className="text-gray-600">{plan.period}</span>
-                  </div>
+                  </div> */}
                   <p className="text-gray-600 text-sm">{plan.description}</p>
                 </div>
                 
@@ -443,16 +443,16 @@ export const LandingPage = () => {
               <div className="flex space-x-4">
                 <div className="flex items-center space-x-2 text-gray-400">
                   <Mail className="h-4 w-4" />
-                  <span>hello@binder.com</span>
+                  <span>Info@binder.com</span>
                 </div>
-                <div className="flex items-center space-x-2 text-gray-400">
+                {/* <div className="flex items-center space-x-2 text-gray-400">
                   <Phone className="h-4 w-4" />
                   <span>+1 (555) 123-4567</span>
-                </div>
+                </div> */}
               </div>
             </div>
             
-            <div>
+            {/* <div>
               <h4 className="font-semibold mb-4">Product</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
@@ -460,7 +460,7 @@ export const LandingPage = () => {
                 <li><a href="#" className="hover:text-white transition-colors">API</a></li>
                 <li><a href="#" className="hover:text-white transition-colors">Integrations</a></li>
               </ul>
-            </div>
+            </div> */}
             
             <div>
               <h4 className="font-semibold mb-4">Company</h4>
