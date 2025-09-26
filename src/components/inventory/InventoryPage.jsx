@@ -666,7 +666,7 @@
 import React, { useState } from 'react';
 import { Package, Plus, Search, Filter, Edit, Trash2, X, Zap, CheckCircle, BarChart3, AlertTriangle, PackageX, TrendingDown, Users, ShoppingCart, Move, Truck, Globe, Calculator, FileText, Tag, Scissors, Palette, RefreshCw, Target, Clock, DollarSign, Archive, Shield } from 'lucide-react';
 
-export default function InventoryPage() {
+export const InventoryPage = () => {
   const [products, setProducts] = useState([
     {
       id: '1',
@@ -1564,4 +1564,4 @@ export default function InventoryPage() {
       )}
     </div>
   );
-}
+};
