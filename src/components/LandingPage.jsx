@@ -185,7 +185,7 @@ export const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center">
             <div className="mb-8">
-              <span className="inline-block px-4 py-2 bg-blue-100 text-blue-800 rounded-full text-sm font-medium mb-4">
+              <span className="inline-block px-6 py-4 bg-blue-100 text-blue-800 rounded-full text-xl font-xl mb-6">
                 Welcome to BINDER
               </span>
             </div>
