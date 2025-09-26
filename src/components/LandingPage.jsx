@@ -256,14 +256,14 @@ export const LandingPage = () => {
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
             <div>
               <div className="text-4xl font-bold text-white mb-2">10,000+</div>
-              <div className="text-blue-200">Active Users</div>
+              <div className="text-blue-200">Active Venders/Buyers</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">500+</div>
+              <div className="text-4xl font-bold text-white mb-2">100+</div>
               <div className="text-blue-200">Companies</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-white mb-2">1M+</div>
+              <div className="text-4xl font-bold text-white mb-2">1L+</div>
               <div className="text-blue-200">SKUs Managed</div>
             </div>
             <div>
